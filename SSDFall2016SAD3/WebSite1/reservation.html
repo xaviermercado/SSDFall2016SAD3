@@ -3,6 +3,11 @@
 <head>
     <title></title>
 	<meta charset="utf-8" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 23px;
+        }
+    </style>
 </head>
 <body>
     <div id="header" style="height: 41px; width: 941px; background-color: #CCFF99;">
@@ -22,12 +27,40 @@
     <!-- Everything about the content goes in here -->
         <table style="width:100%;">
             <tr>
-                <td><img src="house1.png"/> </td>
-                <td><img src="house2.png"/> </td>
-                <td><img src="house3.png"/> </td>
+                <td><img src="images/cabin1.jpg" style="height: 155px; width: 228px"/> </td>
+                <td><img src="images/cabin2.jpg" style="height: 155px; width: 221px"/> </td>
+                <td><img src="images/cabin3.jpg" style="height: 157px; width: 255px"/> </td>
+            </tr>
+        </table>
+        <table style="width:100%;">
+            <tr>
+                <td class="auto-style1">House Details:</td>
+                <td class="auto-style1">Description</td>
+                <td class="auto-style1">Price</td>
+            </tr>
+            <tr>
+                <td><img src="images/cabin4.jpg" style="height: 84px; width: 166px"/></td>
+                <td>Beautiful Cabin at the north lake of Whistler with 2 bedrooms, 1 bathroom and a living room with fireplace.</td>
+                <td>$450.00CAD/Night</td>
+            </tr>
+            <tr>
+                <td class="auto-style1">Date From:</td>
+                <td class="auto-style1">
+                    <input id="DateFrom" type="date" /></td>
+                <td class="auto-style1"></td>
+            </tr>
+             <tr>
+                <td class="auto-style1">Date To:</td>
+                <td class="auto-style1">
+                    <input id="DateTo" type="date" /></td>
+                <td class="auto-style1">
+                    <input id="Button1" type="button" value="Make a Reservation" /></td>
             </tr>
         </table>
     </div>
+    <br />
+
+
     <div id="Footer" style="width: 944px; height: 16px;position:relative; background-color: #FFFF99; top: 339px; left: 3px;">
         <b>October 2016 Created by Dakota Jang, Carlos Rado, Nick Liu and Xavier Mercado</b>
 
