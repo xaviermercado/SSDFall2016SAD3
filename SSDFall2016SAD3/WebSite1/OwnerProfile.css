@@ -1,20 +1,4 @@
 ﻿
-#menu{
-    height: 500px; 
-    width: 164px; 
-    background-color: #CC9900; 
-    position:absolute; 
-    top: 60px; 
-    left: 15px;
-}
-#body{
-    height: 500px; 
-    width: 768px; 
-    position:absolute; 
-    top: 60px; 
-    left: 182px;
-}
-
 #pic1{
     height: 102px; 
     width: 105px
