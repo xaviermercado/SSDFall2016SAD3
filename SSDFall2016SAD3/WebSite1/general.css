@@ -1,0 +1,17 @@
+﻿#header{
+    height: 41px; 
+    width: 941px; 
+    background-color: #CCFF99;
+}
+#Footer {
+    width: 944px;
+    height: 16px;
+    position: relative;
+    background-color: #FFFF99;
+    top: 500px;
+    left: 3px;
+}
+#logo{
+    height: 40px; 
+    width: 161px
+}
